@@ -1,8 +1,6 @@
-header{
-    background-color: black;
+body {
+    background: linear-gradient( to bottom, #D4A373 10%, #4A2E5B 80%);
+    min-height: 100vh;
+    margin: 0;
 }
-h1.welcome{
-    color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
+
