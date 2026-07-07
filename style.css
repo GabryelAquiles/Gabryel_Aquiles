@@ -1,6 +1,59 @@
 body {
-    background: linear-gradient( to bottom, #D4A373 10%, #4A2E5B 80%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, #d9e6e7 10%, #3bc6ec 80%);
     min-height: 100vh;
     margin: 0;
 }
 
+header img {    
+    display: block;
+    width: 250px;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 20%;
+    border: 5px solid rgb(130, 189, 241);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h1.nome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;               
+    margin-top: 40px;       
+    padding: 0 20px;
+    margin-bottom: 60px;         
+}
+
+.secao-intro, .secao-projetos {
+    width: 100%;
+    max-width: 800px;        
+}
+
+.secao-intro {
+    text-align: justify;
+}
+
+.secao-projetos {
+    text-align: left;
+}
+
+p.txt {
+    line-height: 1.6;   
+    font-size: 1.05rem; 
+    color: #111111;     
+}
+
+h2.intro, .secao-projetos h2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
